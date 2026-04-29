@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "tradingview": {
+      "command": "node",
+      "args": ["C:/Users/Tenders/tradingview-mcp/src/server.js"]
+    },
+    "forexfactory": {
+      "command": "uv",
+      "args": ["run", "ffcal-server"],
+      "cwd": "C:/Users/Tenders/forexfactory-mcp",
+      "env": {
+        "MCP_TRANSPORT": "stdio",
+        "INCLUDE_FIELDS": "id,name,currency,date,impactName,impactClass,actual,forecast,previous,timeLabel"
+      }
+    },
+    "graphify": {
+      "command": "python",
+      "args": ["-m", "graphify.serve", "C:/Users/Tenders/Trading-manager/graphify-out/graph.json"],
+      "env": {
+        "PYTHONPATH": "C:/Users/Tenders/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages"
+      }
+    }
+  }
+}

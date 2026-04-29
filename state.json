@@ -1,0 +1,68 @@
+{
+  "cycle": 0,
+  "last_run": null,
+  "daily_cap_remaining": 6,
+  "total_exposure_pct": 0.0,
+  "assets": {
+    "BTCUSD": {
+      "last_scan": null,
+      "signal": null,
+      "bias": null,
+      "confidence": null,
+      "open_position": false,
+      "daily_trades": 0,
+      "cooldown_until": null,
+      "last_alert_ts": null
+    },
+    "XAUUSD": {
+      "last_scan": null,
+      "signal": null,
+      "bias": null,
+      "confidence": null,
+      "open_position": false,
+      "daily_trades": 0,
+      "cooldown_until": null,
+      "last_alert_ts": null
+    },
+    "CLOIL": {
+      "last_scan": null,
+      "signal": null,
+      "bias": null,
+      "confidence": null,
+      "open_position": false,
+      "daily_trades": 0,
+      "cooldown_until": null,
+      "last_alert_ts": null
+    },
+    "EURUSD": {
+      "last_scan": null,
+      "signal": null,
+      "bias": null,
+      "confidence": null,
+      "open_position": false,
+      "daily_trades": 0,
+      "cooldown_until": null,
+      "last_alert_ts": null
+    },
+    "NAS100": {
+      "last_scan": null,
+      "signal": null,
+      "bias": null,
+      "confidence": null,
+      "open_position": false,
+      "daily_trades": 0,
+      "cooldown_until": null,
+      "last_alert_ts": null
+    },
+    "SP500": {
+      "last_scan": null,
+      "signal": null,
+      "bias": null,
+      "confidence": null,
+      "open_position": false,
+      "daily_trades": 0,
+      "cooldown_until": null,
+      "last_alert_ts": null
+    }
+  }
+}
